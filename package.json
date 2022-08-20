@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "dev": "node app.js"
+    "dev": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Neeraj1005/node-js-learning/issues"
   },
-  "homepage": "https://github.com/Neeraj1005/node-js-learning#readme"
+  "homepage": "https://github.com/Neeraj1005/node-js-learning#readme",
+  "dependencies": {
+    "nodemon": "^2.0.19"
+  }
 }
